@@ -1,0 +1,163 @@
+body {
+    background-color: #BBA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uv{
+    background-color: black;
+    text-align: center;
+    color: white;
+    display:inline-block;
+ 
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 50;
+   
+}
+
+.contenu{
+    background-color: white;
+    margin: -20px 10px 20px 10px;
+    padding: 0px 5px 60px 5px;
+    margin-bottom: -20px;
+   
+    box-shadow: 0px 0p 8px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+h1{
+    text-align: center;
+}
+
+.enon{
+    text-align: center;
+    margin-bottom: -55px;
+    margin-top: 80px;
+   
+}
+
+.para {
+    
+   
+    text-align: center;
+}
+
+div.descrip{
+    background-color: orange;
+}
+
+.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    width: 100%;
+    display: block;
+    max-height: 300px;
+    object-fit: cover; /*pour eviter la deformation de l'image*/
+    min-height: 100px; /*zone delimitee au cas ou l'image ne sera pas chargee. oN PEUT FORCER LE NAVIGATEUR A RECHARGER TRES VITE L'IMAGE ENT AJOUTANT APRES L'URL ? id ="ce qu'on veut"*/
+}
+
+.ensemble{
+    position: relative;
+   
+}
+
+.table{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #6C829DC0;
+    color: white;
+    height: 80px;
+}
+
+.table td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.colonne1 {
+   
+   
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.colonne2{
+    float: right; /* affichage a droite*/
+}
+
+.colonne{
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid #6C829D;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.psf p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.psn p.numero{
+    background-color:  #6C829D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;   /* pour avoir une forme cirulaire*/
+    margin: 0;
+}
+
+.psn td{
+    vertical-align: top;
+} 
+
+.psn td.psns{
+    font-size:14px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.psn tr{
+    height: 40px;
+}
+
+*{
+    overflow: auto;
+}
+
+/*Styles pour ordinateur*/
+
+@media only screen and (min-width:768px){
+    .contenu{
+        min-width: 350px;
+        margin: 0px, 10%, 80%,10%;
+        padding: 0px 30px 30px 30px;
+
+    }
+   
+}
